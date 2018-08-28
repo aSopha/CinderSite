@@ -13,10 +13,10 @@ class Streamers extends Component {
           transitionAppearTimeout={500}
           transitionEnter={false}
           transitionLeave={false}>
-          <StreamPanel streamerInfo="Streamer Info" imgUrl = "%PUBLIC_URL%/Colossus.jpg"/>
-          <StreamPanel streamerInfo="Streamer Stuff" imgUrl = "%PUBLIC_URL%/Thor.jpg"/>
-          <StreamPanel streamerInfo="Stream Deets" imgUrl = "%PUBLIC_URL%/Ultralisk.jpg"/>
-          <StreamPanel streamerInfo="Yea Yea" imgUrl = "%PUBLIC_URL%/Zealot.jpg"/>
+          <StreamPanel streamerInfo="Streamer Info" imgUrl = "./Colossus.jpg"/>
+          <StreamPanel streamerInfo="Streamer Stuff" imgUrl = "./Thor.jpg"/>
+          <StreamPanel streamerInfo="Stream Deets" imgUrl = "./Ultralisk.jpg"/>
+          <StreamPanel streamerInfo="Yea Yea" imgUrl = "./Zealot.jpg"/>
         </CSSTransitionGroup>
       </div>
     );
