@@ -1,0 +1,155 @@
+.PVECalendarMode {
+  height: 80%;
+}
+
+.PVECalendar {
+  height: 100%;
+}
+.PVPCalendarMode {
+  height: 80%;
+}
+
+.PVPCalendar {
+  height: 100%;
+}
+.Calendar {
+  display: relative;
+  height: 100%;
+  align-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Calendar-enter {
+  display: relative;
+  height: 100%;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  opacity: 0.01;
+}
+
+.Calendar-appear {
+  display: relative;
+  height: 100%;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  opacity: 0.01;
+}
+
+.Calendar-leave {
+  opacity: 1;
+  display: relative;
+  height: 100%;
+  align-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Calendar-appear.Calendar-appear-active {
+  opacity: 1;
+  display: relative;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  transition: opacity .5s ease-in;
+}
+
+.Calendar-enter-active {
+  opacity: 1;
+  display: relative;
+  height: 100%;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  visibility: visible;
+}
+
+.CalendarHeader {
+  margin-top: 2em;
+  margin-bottom: 0;
+  padding: 0, 0, 0, 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 3em;
+  align-self: center;
+}
+
+.CalendarFooter {
+  margin-top: 2em;
+  height: 5em;
+}
+
+.CaldendarFooterGuild {
+  margin-left: 2em;
+  font-size: 2em;
+  display: inline;
+}
+
+.CalendarHeaderBoxDarkRed {
+  position: relative;
+  background: DarkRed;
+  color: white;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  padding: 0, 0, 0, 0;
+  margin: 0, 0, 0, 0;
+  text-align: center;
+  width: 14%;
+  height: 100%;
+}
+
+.CalendarHeaderBoxNavy {
+  position: relative;
+  background: navy;
+  color: white;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  padding: 0, 0, 0, 0;
+  margin: 0, 0, 0, 0;
+  text-align: center;
+  width: 14%;
+  height: 100%;
+}
+
+.CalendarRow {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0, 0, 0, 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 11em;
+  align-self: center;
+}
+
+.CalendarBox {
+  position: relative;
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  padding: 0, 0, 0, 0;
+  margin: 0, 0, 0, 0;
+  text-align: center;
+  width: 14%;
+  height: 100%;
+}
+
+.CalendarBoxDate {
+  font-size: .75em;
+  width: 15%;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}

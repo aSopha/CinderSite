@@ -1,0 +1,117 @@
+.GuildsMode {
+    padding-top: 1em;
+    height: 80%;
+    align-items: center;
+}
+.Guilds {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.GuildPanel {
+    border-style: solid;
+    position: relative;
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 25%;
+    margin: 1em;
+    height: 100%;
+}
+
+.GuildPanel-enter {
+  width: 25%;
+  position: relative;
+  position: relative;
+  text-align: center;
+  height: 100%;
+  opacity: 0.01;
+}
+
+.GuildPanel-appear {
+  width: 25%;
+  position: relative;
+  position: relative;
+  text-align: center;
+  height: 100%;
+  opacity: 0.01;
+}
+
+.GuildPanel-leave {
+  opacity: 1;
+  position: relative;
+  height: 100%;
+}
+
+.GuildPanel-leave.GuildPanel-leave-active {
+  opacity: 0.01;
+  position: relative;
+  height: 100%;
+  transition: opacity 300ms ease-in;
+}
+
+.GuildPanel-appear.GuildPanel-appear-active {
+  opacity: 1;
+  position: relative;
+  height: 100%;
+  transition: opacity .5s ease-in;
+}
+
+.GuildPanel-enter-active {
+  opacity: 1;
+  position: relative;
+  height: 100%;
+  visibility: visible;
+}
+
+
+/* Clear floats after the columns */
+.GuildPanel-Row {
+  margin-left: 1.5em;
+  content: "";
+  display: table;
+  clear: both;
+  height: 80%;
+  width: 80%;
+}
+
+.GuildPanel-Button {
+  height: 100%;
+  width: 100%;
+  cursor:pointer;
+}
+
+.Name {
+  font-size: 3em;
+}
+
+.Bio {
+  font-size: 1.5em;
+}
+
+.Times {
+  margin-left: .5em;
+  text-align: left;
+  font-size: 2em;
+}
+
+.NeedsHeader {
+  margin-left: .5em;
+  text-align: left;
+  font-size: 2em;
+  text-decoration: underline;
+}
+.Needs {
+  margin-top: 0;
+  margin-left: .5em;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.Contacts {
+  position: absolute;
+  font-weight: bold;
+  bottom: 0;
+  left: 1em;
+}

@@ -1,0 +1,102 @@
+.HomeMode {
+  height: 80%;
+  width: 100%;
+}
+.LatestNews {
+  width: 35%;
+  height: 60%;
+  display: flex;
+  float:left;
+  flex-direction:column;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 20em;
+  margin-left: 15em;
+  margin-top: 10em;
+
+}
+
+.UpcomingEvents {
+  position: relative;
+  margin-top: 1em;
+  width: 30%;
+  height: 80%;
+  margin-left: 5em;
+  display: flex;
+  flex-direction:column;
+  margin-top: 5em;
+}
+
+.EventList {
+  list-style-position: inside;
+  margin-left: 2em;
+  text-align: left;
+  font-size: 2em;
+  left: 2em;
+  list-style: circle;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.EventListItem {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  list-style-position: inside;
+}
+
+.PVPEvents {
+  position: relative;
+  height: 45%;
+  width: 100%;
+  margin-top: 5em;;
+  margin-bottom: 5em;
+}
+
+.PVEEvents {
+  height: 45%;
+  width: 100%;
+  position: relative;
+  margin-bottom: 5em;;
+}
+
+.Home-enter {
+  display: relative;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  opacity: 0.01;
+}
+
+.Home-appear {
+  display: relative;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  opacity: 0.01;
+}
+
+.Home-leave {
+  opacity: 1;
+  display: relative;
+  align-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Home-appear.Home-appear-active {
+  opacity: 1;
+  display: relative;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  transition: opacity .5s ease-in;
+}
+
+.Home-enter-active {
+  opacity: 1;
+  display: relative;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  visibility: visible;
+}
